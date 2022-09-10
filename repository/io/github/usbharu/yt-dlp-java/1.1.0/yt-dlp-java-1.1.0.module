@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.usbharu",
+    "module": "yt-dlp-java",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "yt-dlp-java-1.1.0.jar",
+          "url": "yt-dlp-java-1.1.0.jar",
+          "size": 12890,
+          "sha512": "4396f48fb1e909229a1af7b4c191e710ba6038421ed6970ff042e1ab59b81a52044ed6ee2feb6cf803127a72a48ee0fe8b5ca367af8acc2a72764def82914913",
+          "sha256": "62c52aedf97b6d794a9a726f0e77031cd69e226aebf712afa2e518f28bb9c599",
+          "sha1": "46900a11f8a02de10b9837001db519bc854ae9b3",
+          "md5": "b2b9cdb38d0d00cb4ec4a0ac62207b84"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yt-dlp-java-1.1.0.jar",
+          "url": "yt-dlp-java-1.1.0.jar",
+          "size": 12890,
+          "sha512": "4396f48fb1e909229a1af7b4c191e710ba6038421ed6970ff042e1ab59b81a52044ed6ee2feb6cf803127a72a48ee0fe8b5ca367af8acc2a72764def82914913",
+          "sha256": "62c52aedf97b6d794a9a726f0e77031cd69e226aebf712afa2e518f28bb9c599",
+          "sha1": "46900a11f8a02de10b9837001db519bc854ae9b3",
+          "md5": "b2b9cdb38d0d00cb4ec4a0ac62207b84"
+        }
+      ]
+    }
+  ]
+}
