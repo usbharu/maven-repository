@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.usbharu",
+    "module": "commons-illust",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "commons-illust-0.1.0.jar",
+          "url": "commons-illust-0.1.0.jar",
+          "size": 38103,
+          "sha512": "576b3d43d365fed3243002d5abbf1a30cdf7e4bf7edd09f11435339332d230d9905ea016f541a622fbe53ae8b8c97b0dcecc44387a1cdb81ad4204f6a7c74d13",
+          "sha256": "d4e965970f3a3f9a51a5d55d48c68c7bef1ccf811227b786903edca3478ab74e",
+          "sha1": "d2cfaf35d267b89fd79d8102df22cf70f02222cb",
+          "md5": "324963f867c8305b75bd00757b5a2914"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "commons-illust-0.1.0.jar",
+          "url": "commons-illust-0.1.0.jar",
+          "size": 38103,
+          "sha512": "576b3d43d365fed3243002d5abbf1a30cdf7e4bf7edd09f11435339332d230d9905ea016f541a622fbe53ae8b8c97b0dcecc44387a1cdb81ad4204f6a7c74d13",
+          "sha256": "d4e965970f3a3f9a51a5d55d48c68c7bef1ccf811227b786903edca3478ab74e",
+          "sha1": "d2cfaf35d267b89fd79d8102df22cf70f02222cb",
+          "md5": "324963f867c8305b75bd00757b5a2914"
+        }
+      ]
+    }
+  ]
+}

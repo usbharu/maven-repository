@@ -7,7 +7,21 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.github.usbharu</groupId>
-  <artifactId>utilities</artifactId>
-  <version>1.1.0</version>
+  <groupId>dev.usbharu</groupId>
+  <artifactId>commons-illust</artifactId>
+  <version>0.1.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>23.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
