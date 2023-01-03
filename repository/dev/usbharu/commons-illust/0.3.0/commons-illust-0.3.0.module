@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.usbharu",
+    "module": "commons-illust",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "commons-illust-0.3.0.jar",
+          "url": "commons-illust-0.3.0.jar",
+          "size": 75879,
+          "sha512": "41198820e97a671a69d4b0ddd094131072a002014d12ba8dc3a3d88035750cf06ac48c1cb2ea4b9036db19a829353e8bee436e1230ddcdc05e69ec845eccc816",
+          "sha256": "4e90ec4c70fc56a6f14dce9043d73f489ab86c11d5e50d3192f3eafb4be1b8b2",
+          "sha1": "48f6b3b7831a047c46b3ed33d3a598b32ddcb192",
+          "md5": "64b5c22e8bd052cc03134a30d38c1219"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          }
+        },
+        {
+          "group": "com.adobe.xmp",
+          "module": "xmpcore",
+          "version": {
+            "requires": "6.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "commons-illust-0.3.0.jar",
+          "url": "commons-illust-0.3.0.jar",
+          "size": 75879,
+          "sha512": "41198820e97a671a69d4b0ddd094131072a002014d12ba8dc3a3d88035750cf06ac48c1cb2ea4b9036db19a829353e8bee436e1230ddcdc05e69ec845eccc816",
+          "sha256": "4e90ec4c70fc56a6f14dce9043d73f489ab86c11d5e50d3192f3eafb4be1b8b2",
+          "sha1": "48f6b3b7831a047c46b3ed33d3a598b32ddcb192",
+          "md5": "64b5c22e8bd052cc03134a30d38c1219"
+        }
+      ]
+    }
+  ]
+}
